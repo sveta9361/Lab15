@@ -1,0 +1,21 @@
+.head {
+  background-color: #333;
+  padding: 15px;
+}
+
+.head nav {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 20px;
+  justify-content: center;
+}
+
+.head a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.head a:hover {
+  text-decoration: underline;
+}

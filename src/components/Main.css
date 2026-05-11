@@ -1,0 +1,12 @@
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+
+.main-grid > * {
+  padding: 20px;
+}
+
+.main-grid > *:not(:last-child) {
+  border-right: 1px solid #ccc;
+}
